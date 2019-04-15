@@ -7,3 +7,13 @@ Programmi essenziali
 
 - XAMPP con i servizi Apache e MySQL
 - Editor di codice (es. Visual Studio Code)
+
+DataBase
+
+- E' presente solo una tabella che contiene : username univoco, password codificata con "md5" e la data di nascita.
+  create table users
+  (
+    username varchar(30) primary key not null,
+    password varchar(32) not null,
+    date date not null
+   );
