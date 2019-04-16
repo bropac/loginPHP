@@ -1,0 +1,248 @@
+body
+{
+	margin:0;
+    padding:0;
+    background-color: rgb(8, 3, 49);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#divTop
+{ 
+    background-color: snow;
+    width: 100%;
+    height: 5%;
+    top: 0%;
+    position: fixed;
+    font-size: 32px;
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#divTopButton
+{
+    background-color: snow;
+    width: 10%;
+    height: 1%;
+    top: 5%;
+    right: 15%;
+    position: fixed;
+    font-size: 32px;
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Button
+background-repeat:no-repeat;
+overflow: hidden;
+outline: none;
+*/
+
+.buttonHome
+{
+    border: thin double grey;
+    border-bottom: none;
+    border-top: none;
+    background-color: snow;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+    cursor:pointer;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.buttonEditLogout
+{
+    border: thin double grey;
+    border-bottom: none;
+    border-top: none;
+    background-color: snow;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+    cursor:pointer;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#buttonHomeId
+{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 5%;
+}
+#buttonHomeId:hover
+{
+    background-color: #3f9fdf;
+}
+
+#buttonEditId
+{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    right: 15%;
+}
+#buttonEditId:hover
+{
+    background-color: #3f9fdf;
+}
+
+#buttonLogoutId
+{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    right: 5%;
+}
+#buttonLogoutId:hover
+{
+    background-color: #3f9fdf;
+}
+
+#buttonConferma
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: snow;
+    border: none;
+    cursor:pointer;
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#buttonConferma:hover
+{
+    background-color: #3f9fdf;
+}
+
+#buttonElimina
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: snow;
+    border: none;
+    cursor:pointer;
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#buttonElimina:hover
+{
+    background-color: #3f9fdf;
+}
+
+#divMainPage
+{
+    background-color: snow;
+    width: 90%;
+    height: 90%;
+    position: fixed;
+    top: 6%;
+    left: 5%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#divUserPassword
+{
+    position: fixed;
+    height: 40%;
+    width: 38%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 4%;
+    padding-bottom: 1%;
+    border-style: solid;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: snow;
+    outline: none;
+}
+
+#divButtonConferma
+{
+    position: fixed;
+    width: 14%;
+    height: 4%;
+    left: 32%;
+    top: 74%;
+    border-style: solid;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: snow;
+    outline: none;
+}
+
+#divButtonElimina
+{
+    position: fixed;
+    width: 14%;
+    height: 4%;
+    left: 54%;
+    top: 74%;
+    border-style: solid;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: snow;
+    outline: none;
+}
+
+#usrId
+{
+    position: relative;
+    width: 60%;
+    left: 3%;
+    font-size: 24px;
+    border-color: #2980b9;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: snow;
+    outline: none;
+}
+
+#pwdId
+{
+    position: relative;
+    width: 60%;
+    left: 3%;
+    font-size: 24px;
+    border-color: #2980b9;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: snow;
+    outline: none;
+}
+
+#pwdButtonId
+{
+    width: 4%;
+    position: relative;
+    left: 3%;
+    font-size: 26px;
+    text-align: center;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#dateId
+{
+    position: relative;
+    width: 60%;
+    left: 3%;
+    font-size: 24px;
+    border-color: #2980b9;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: snow;
+    outline: none;
+}

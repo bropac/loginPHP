@@ -1,0 +1,156 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+@-webkit-keyframes animate
+{
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+@-moz-keyframes animate
+{
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+@-ms-keyframes animate
+{
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+@-o-keyframes animate
+{
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+@keyframes animate
+{
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+#divUserPassword
+{ 
+    background-color: snow;
+    width: 500px;
+    height: 596px;
+    padding: 10px;
+    border-radius: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#usrId
+{
+    width: 75%;
+    position: relative;
+    left: 10%;
+    font-size: 24px;
+    border-color: #2980b9;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: snow;
+    outline: none;
+}
+
+#pwdId
+{
+    width: 75%;
+    position: relative;
+    left: 10%;
+    font-size: 24px;
+    border-color: #2980b9;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: snow;
+    outline: none;
+}
+
+#dateId
+{
+    width: 75%;
+    position: relative;
+    left: 10%;
+    font-size: 24px;
+    border-color: #2980b9;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: snow;
+    outline: none;
+}
+
+#pwdButtonId
+{
+    width: 9%;
+    position: relative;
+    left: 10%;
+    font-size: 26px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#iscrivitiButton
+{
+    position: relative;
+    width: 75%;
+    top: 80px;
+    left: 10%;
+    font-size: 26px;
+    background-color: #2980b9;
+    background-repeat:no-repeat;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#iscrivitiButton:hover
+{
+    background-color: #3f9fdf;
+}
+
+#indietroButton
+{
+    position: relative;
+    width: 75%;
+    top: 96px;
+    left: 10%;
+    font-size: 26px;
+    background-color: #2980b9;
+    background-repeat:no-repeat;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#indietroButton:hover
+{
+    background-color: #3f9fdf;
+}

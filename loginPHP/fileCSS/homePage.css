@@ -1,0 +1,138 @@
+body
+{
+	margin:0;
+    padding:0;
+    background-color: rgb(8, 3, 49);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#divTop
+{ 
+    background-color: snow;
+    width: 100%;
+    height: 5%;
+    top: 0%;
+    position: fixed;
+    font-size: 32px;
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#divTopButton
+{
+    background-color: snow;
+    width: 10%;
+    height: 1%;
+    top: 5%;
+    left: 5%;
+    position: fixed;
+    font-size: 32px;
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#divMainPage
+{
+    background-color: snow;
+    width: 90%;
+    height: 90%;
+    position: fixed;
+    top: 6%;
+    left: 5%;
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Button
+background-repeat: no-repeat;
+overflow: hidden;
+outline: none;
+*/
+
+.buttonHomePlayAbout
+{
+    border: thin double grey;
+    border-bottom: none;
+    border-top: none;
+    background-color: snow;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+    cursor:pointer;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.buttonEditLogout
+{
+    border: thin double grey;
+    border-bottom: none;
+    border-top: none;
+    background-color: snow;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+    cursor:pointer;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#buttonHomeId
+{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 5%;
+}
+#buttonHomeId:hover
+{
+    background-color: #3f9fdf;
+}
+
+#buttonPlayId
+{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 15%;
+}
+#buttonPlayId:hover
+{
+    background-color: #3f9fdf;
+}
+
+#buttonAboutId
+{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 25%;
+}
+#buttonAboutId:hover
+{
+    background-color: #3f9fdf;
+}
+
+#buttonEditId
+{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    right: 15%;
+}
+#buttonEditId:hover
+{
+    background-color: #3f9fdf;
+}
+
+#buttonLogoutId
+{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    right: 5%;
+}
+#buttonLogoutId:hover
+{
+    background-color: #3f9fdf;
+}
